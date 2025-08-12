@@ -222,7 +222,7 @@ function App() {
   };
 
   useEffect(() => {
-    let socketInstance = io("https://lily-ai-chatbot.onrender.com");
+    let socketInstance = io("https://lily-ai-chatbot-agmy.onrender.com");
     setSocket(socketInstance);
     console.log("Connected to production server");
 
